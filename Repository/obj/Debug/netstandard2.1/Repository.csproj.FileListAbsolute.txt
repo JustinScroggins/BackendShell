@@ -1,0 +1,17 @@
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Repository\bin\Debug\netstandard2.1\Repository.deps.json
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Repository\bin\Debug\netstandard2.1\Repository.dll
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Repository\bin\Debug\netstandard2.1\Repository.pdb
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Repository\bin\Debug\netstandard2.1\Contracts.dll
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Repository\bin\Debug\netstandard2.1\Entities.dll
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Repository\bin\Debug\netstandard2.1\Shared.dll
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Repository\bin\Debug\netstandard2.1\Contracts.pdb
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Repository\bin\Debug\netstandard2.1\Entities.pdb
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Repository\bin\Debug\netstandard2.1\Shared.pdb
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Repository\obj\Debug\netstandard2.1\Repository.csproj.AssemblyReference.cache
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Repository\obj\Debug\netstandard2.1\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Repository\obj\Debug\netstandard2.1\Repository.AssemblyInfoInputs.cache
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Repository\obj\Debug\netstandard2.1\Repository.AssemblyInfo.cs
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Repository\obj\Debug\netstandard2.1\Repository.csproj.CoreCompileInputs.cache
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Repository\obj\Debug\netstandard2.1\Repository.csproj.CopyComplete
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Repository\obj\Debug\netstandard2.1\Repository.dll
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Repository\obj\Debug\netstandard2.1\Repository.pdb
