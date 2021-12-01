@@ -1,4 +1,5 @@
 using API.Extensions;
+using AutoMapper;
 using LoggerService;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;

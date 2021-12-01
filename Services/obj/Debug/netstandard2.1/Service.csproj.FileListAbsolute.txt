@@ -1,3 +1,8 @@
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Services\obj\Debug\netstandard2.1\Service.csproj.AssemblyReference.cache
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Services\obj\Debug\netstandard2.1\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Services\obj\Debug\netstandard2.1\Service.AssemblyInfoInputs.cache
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Services\obj\Debug\netstandard2.1\Service.AssemblyInfo.cs
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Services\obj\Debug\netstandard2.1\Service.csproj.CoreCompileInputs.cache
 C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Services\bin\Debug\netstandard2.1\Service.deps.json
 C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Services\bin\Debug\netstandard2.1\Service.dll
 C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Services\bin\Debug\netstandard2.1\Service.pdb
@@ -11,11 +16,6 @@ C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Services\bin\Debug\netstanda
 C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Services\bin\Debug\netstandard2.1\Services.Contracts.pdb
 C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Services\bin\Debug\netstandard2.1\Entities.pdb
 C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Services\bin\Debug\netstandard2.1\Shared.pdb
-C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Services\obj\Debug\netstandard2.1\Service.csproj.AssemblyReference.cache
-C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Services\obj\Debug\netstandard2.1\Service.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Services\obj\Debug\netstandard2.1\Service.AssemblyInfoInputs.cache
-C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Services\obj\Debug\netstandard2.1\Service.AssemblyInfo.cs
-C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Services\obj\Debug\netstandard2.1\Service.csproj.CoreCompileInputs.cache
 C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Services\obj\Debug\netstandard2.1\Service.csproj.CopyComplete
 C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Services\obj\Debug\netstandard2.1\Service.dll
 C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Services\obj\Debug\netstandard2.1\Service.pdb

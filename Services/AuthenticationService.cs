@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using AutoMapper.Configuration;
+using Microsoft.Extensions.Configuration;
 using Entities.Models;
 using LoggerService;
 using Microsoft.AspNetCore.Identity;

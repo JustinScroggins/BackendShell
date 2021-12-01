@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
-using AutoMapper.Configuration;
 using Contracts;
 using Entities.Models;
 using LoggerService;
 using Microsoft.AspNetCore.Identity;
 using Services.Contracts;
 using System;
+using Microsoft.Extensions.Configuration;
 using System.Collections.Generic;
 using System.Text;
 
