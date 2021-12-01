@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Entities;
 using LoggerService;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Services.Contracts;
 using Shared.DataTransferObjects;
@@ -18,7 +19,7 @@ namespace Presentation
 
         public OrderController(IServiceManager service) => _service = service;
 
-        [HttpGet]
+        [HttpGet, Authorize]
         public async Task<IActionResult> GetOrdersAsync()
         {
             var orders = await _service.OrderService.GetAllOrdersAsync(trackChanges: false);
@@ -27,7 +28,7 @@ namespace Presentation
         }
 
         // Add a Search endpoint
-        [HttpGet("{id}", Name = "OrderById")]
+        [HttpGet("{id}", Name = "OrderById"), Authorize]
         public async Task<IActionResult> GetOrderAsync(int id)
         {
             var order = await _service.OrderService.GetOrderAsync(id, trackChanges: false);
@@ -35,7 +36,7 @@ namespace Presentation
         }
 
         // Search for Collection by multiple ID's
-        [HttpGet("collection", Name = "OrderCollection")]
+        [HttpGet("collection", Name = "OrderCollection"), Authorize]
         public async Task<IActionResult>GetOrderCollectionAsync(List<int> ids)
         {
             var orders = await _service.OrderService.GetByIdsAsync(ids, trackChanges: false);
@@ -43,7 +44,7 @@ namespace Presentation
         }
 
         // Add a Create endpoint
-        [HttpPost]
+        [HttpPost, Authorize]
         public async Task<IActionResult> CreateOrderAsync([FromBody] OrderForCreationDto order)
         {
             if (order is null)
@@ -54,7 +55,7 @@ namespace Presentation
             return CreatedAtRoute("OrderById", new { id = createdOrder.OrderId }, createdOrder);
         }
 
-        [HttpPost("collection")]
+        [HttpPost("collection"), Authorize]
         public async Task<IActionResult> CreateOrderCollection([FromBody] IEnumerable<OrderForCreationDto> orderCollection)
         {
             var result = await _service.OrderService.CreateOrderCollectionAsync(orderCollection);
@@ -62,7 +63,7 @@ namespace Presentation
         }
 
         // Add a Delete endpoint
-        [HttpDelete("{orderId}")]
+        [HttpDelete("{orderId}"), Authorize]
         public async Task<IActionResult> DeleteOrderAsync(int orderId)
         {
             await _service.OrderService.DeleteOrderAsync(orderId, trackChanges: false);
@@ -70,7 +71,7 @@ namespace Presentation
         }
 
         //Edit an order
-        [HttpPut("{orderId}")]
+        [HttpPut("{orderId}"), Authorize]
         public async Task<IActionResult> UpdateOrderAsync(int orderId, [FromBody] OrderForUpdateDto order)
         {
             if (order is null)

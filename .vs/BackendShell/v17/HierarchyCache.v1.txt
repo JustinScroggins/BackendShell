@@ -1,0 +1,274 @@
+﻿++Solution 'BackendShell' ‎(9 of 9 projects)
+i:{00000000-0000-0000-0000-000000000000}:BackendShell.sln
+++API
+i:{00000000-0000-0000-0000-000000000000}:API
+++Connected Services 
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:>981
+++Dependencies
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:>980
+i:{7e5e74d7-8f70-47ca-a88a-7de80d3a2cb3}:>311
+i:{39281eee-5e94-454c-8809-59cbbf51fa7e}:>312
+i:{94e49d7c-c2c1-42e2-8d56-af4cc3a505fa}:>478
+i:{ded62889-dd6f-461f-b46c-a02567b150e8}:>477
+i:{d5e1b350-649f-427e-a08f-d6c69576ed1b}:>648
+i:{e714518a-93a6-4e25-a3cf-5140e2fbbd6e}:>599
+i:{bdaa8d29-043f-4398-a20c-2ac8d863007d}:>805
+i:{96bd05cd-dc87-4198-8d5a-8f5fbdd8b7c3}:>806
+++Properties
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\backendshell\properties\
+++launchSettings.json
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\backendshell\properties\launchsettings.json
+++ContextFactory
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\backendshell\contextfactory\
+++RepositoryContextFactory.cs
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\backendshell\contextfactory\repositorycontextfactory.cs
+++Extensions
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\backendshell\extensions\
+++ExceptionMiddlewareExtensions.cs
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\backendshell\extensions\exceptionmiddlewareextensions.cs
+++ServiceExtensions.cs
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\backendshell\extensions\serviceextensions.cs
+++internal_logs
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\backendshell\internal_logs\
+++internallog.txt
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\backendshell\internal_logs\internallog.txt
+++Migrations
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\backendshell\migrations\
+++20211130010108_InitialData.cs
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\backendshell\migrations\20211130010108_initialdata.cs
+++20211201032951_CreateIdentityTables.cs
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\backendshell\migrations\20211201032951_createidentitytables.cs
+++20211201032951_CreateIdentityTables.Designer.cs
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\backendshell\migrations\20211201032951_createidentitytables.designer.cs
+++20211201033344_AddedRolesToDb.cs
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\backendshell\migrations\20211201033344_addedrolestodb.cs
+++20211201033344_AddedRolesToDb.Designer.cs
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\backendshell\migrations\20211201033344_addedrolestodb.designer.cs
+++20211201042105_AddRolesToDb.cs
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\backendshell\migrations\20211201042105_addrolestodb.cs
+++20211201042105_AddRolesToDb.Designer.cs
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\backendshell\migrations\20211201042105_addrolestodb.designer.cs
+++RepositoryContextModelSnapshot.cs
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\backendshell\migrations\repositorycontextmodelsnapshot.cs
+++appsettings.json
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\backendshell\appsettings.json
+++MappingProfile.cs
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\backendshell\mappingprofile.cs
+++nlog.config
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\backendshell\nlog.config
+++Program.cs
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\backendshell\program.cs
+++Startup.cs
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\backendshell\startup.cs
+++No service dependencies discovered
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:>982
+++Analyzers
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:analyzers
+i:{7e5e74d7-8f70-47ca-a88a-7de80d3a2cb3}:analyzers
+i:{39281eee-5e94-454c-8809-59cbbf51fa7e}:analyzers
+i:{94e49d7c-c2c1-42e2-8d56-af4cc3a505fa}:analyzers
+i:{ded62889-dd6f-461f-b46c-a02567b150e8}:analyzers
+i:{d5e1b350-649f-427e-a08f-d6c69576ed1b}:analyzers
+i:{e714518a-93a6-4e25-a3cf-5140e2fbbd6e}:analyzers
+i:{bdaa8d29-043f-4398-a20c-2ac8d863007d}:analyzers
+i:{96bd05cd-dc87-4198-8d5a-8f5fbdd8b7c3}:analyzers
+++Frameworks
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:frameworks
+i:{7e5e74d7-8f70-47ca-a88a-7de80d3a2cb3}:frameworks
+i:{39281eee-5e94-454c-8809-59cbbf51fa7e}:frameworks
+i:{94e49d7c-c2c1-42e2-8d56-af4cc3a505fa}:frameworks
+i:{ded62889-dd6f-461f-b46c-a02567b150e8}:frameworks
+i:{d5e1b350-649f-427e-a08f-d6c69576ed1b}:frameworks
+i:{e714518a-93a6-4e25-a3cf-5140e2fbbd6e}:frameworks
+i:{bdaa8d29-043f-4398-a20c-2ac8d863007d}:frameworks
+i:{96bd05cd-dc87-4198-8d5a-8f5fbdd8b7c3}:frameworks
+++Packages
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:packages
+i:{39281eee-5e94-454c-8809-59cbbf51fa7e}:packages
+i:{94e49d7c-c2c1-42e2-8d56-af4cc3a505fa}:packages
+i:{ded62889-dd6f-461f-b46c-a02567b150e8}:packages
+i:{bdaa8d29-043f-4398-a20c-2ac8d863007d}:packages
+i:{d5e1b350-649f-427e-a08f-d6c69576ed1b}:packages
+++Projects
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:projects
+i:{7e5e74d7-8f70-47ca-a88a-7de80d3a2cb3}:projects
+i:{39281eee-5e94-454c-8809-59cbbf51fa7e}:projects
+i:{ded62889-dd6f-461f-b46c-a02567b150e8}:projects
+i:{d5e1b350-649f-427e-a08f-d6c69576ed1b}:projects
+i:{e714518a-93a6-4e25-a3cf-5140e2fbbd6e}:projects
+i:{bdaa8d29-043f-4398-a20c-2ac8d863007d}:projects
+i:{96bd05cd-dc87-4198-8d5a-8f5fbdd8b7c3}:projects
+++20211130010108_InitialData.Designer.cs
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\backendshell\migrations\20211130010108_initialdata.designer.cs
+++appsettings.Development.json
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\backendshell\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.21\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{7e5e74d7-8f70-47ca-a88a-7de80d3a2cb3}:c:\users\blitz\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.21\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{39281eee-5e94-454c-8809-59cbbf51fa7e}:c:\users\blitz\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.21\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{94e49d7c-c2c1-42e2-8d56-af4cc3a505fa}:c:\users\blitz\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.21\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{ded62889-dd6f-461f-b46c-a02567b150e8}:c:\users\blitz\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.21\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{d5e1b350-649f-427e-a08f-d6c69576ed1b}:c:\users\blitz\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.21\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{e714518a-93a6-4e25-a3cf-5140e2fbbd6e}:c:\users\blitz\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.21\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{bdaa8d29-043f-4398-a20c-2ac8d863007d}:c:\users\blitz\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.21\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{96bd05cd-dc87-4198-8d5a-8f5fbdd8b7c3}:c:\users\blitz\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.21\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.AspNetCore.App
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\backendshell\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\backendshell\microsoft.netcore.app
+++AutoMapper.Extensions.Microsoft.DependencyInjection (8.1.1)
+++Microsoft.EntityFrameworkCore.SqlServer (3.1.21)
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:>1028
+++Microsoft.EntityFrameworkCore.Tools (3.1.21)
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:>1030
+++NLog (4.7.12)
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:>1031
+++LoggerService
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\loggerservice\bin\debug\netstandard2.1\loggerservice.dll
+i:{00000000-0000-0000-0000-000000000000}:LoggerService
+i:{d5e1b350-649f-427e-a08f-d6c69576ed1b}:c:\users\blitz\desktop\red coding challenge\backend\loggerservice\bin\debug\netstandard2.1\loggerservice.dll
+i:{bdaa8d29-043f-4398-a20c-2ac8d863007d}:c:\users\blitz\desktop\red coding challenge\backend\loggerservice\bin\debug\netstandard2.1\loggerservice.dll
+++Presentation
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\presentation\bin\debug\netstandard2.1\presentation.dll
+i:{00000000-0000-0000-0000-000000000000}:Presentation
+++Repository
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\repository\bin\debug\netstandard2.1\repository.dll
+i:{00000000-0000-0000-0000-000000000000}:Repository
+++Service
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:c:\users\blitz\desktop\red coding challenge\backend\services\bin\debug\netstandard2.1\service.dll
+i:{00000000-0000-0000-0000-000000000000}:Service
+++Contracts
+i:{00000000-0000-0000-0000-000000000000}:Contracts
+i:{39281eee-5e94-454c-8809-59cbbf51fa7e}:c:\users\blitz\desktop\red coding challenge\backend\contracts\bin\debug\netstandard2.1\contracts.dll
+i:{ded62889-dd6f-461f-b46c-a02567b150e8}:c:\users\blitz\desktop\red coding challenge\backend\contracts\contracts.csproj
+i:{d5e1b350-649f-427e-a08f-d6c69576ed1b}:c:\users\blitz\desktop\red coding challenge\backend\contracts\bin\debug\netstandard2.1\contracts.dll
+i:{bdaa8d29-043f-4398-a20c-2ac8d863007d}:c:\users\blitz\desktop\red coding challenge\backend\contracts\bin\debug\netstandard2.1\contracts.dll
+++IOrderRepository.cs
+i:{7e5e74d7-8f70-47ca-a88a-7de80d3a2cb3}:c:\users\blitz\desktop\red coding challenge\backend\contracts\iorderrepository.cs
+++IRepositoryBase.cs
+i:{7e5e74d7-8f70-47ca-a88a-7de80d3a2cb3}:c:\users\blitz\desktop\red coding challenge\backend\contracts\irepositorybase.cs
+++IRepositoryManager.cs
+i:{7e5e74d7-8f70-47ca-a88a-7de80d3a2cb3}:c:\users\blitz\desktop\red coding challenge\backend\contracts\irepositorymanager.cs
+++NETStandard.Library
+i:{7e5e74d7-8f70-47ca-a88a-7de80d3a2cb3}:c:\users\blitz\desktop\red coding challenge\backend\contracts\netstandard.library
+i:{39281eee-5e94-454c-8809-59cbbf51fa7e}:c:\users\blitz\desktop\red coding challenge\backend\loggerservice\netstandard.library
+i:{94e49d7c-c2c1-42e2-8d56-af4cc3a505fa}:c:\users\blitz\desktop\red coding challenge\backend\entities\netstandard.library
+i:{ded62889-dd6f-461f-b46c-a02567b150e8}:c:\users\blitz\desktop\red coding challenge\backend\repository\netstandard.library
+i:{d5e1b350-649f-427e-a08f-d6c69576ed1b}:c:\users\blitz\desktop\red coding challenge\backend\services\netstandard.library
+i:{e714518a-93a6-4e25-a3cf-5140e2fbbd6e}:c:\users\blitz\desktop\red coding challenge\backend\services.contracts\netstandard.library
+i:{bdaa8d29-043f-4398-a20c-2ac8d863007d}:c:\users\blitz\desktop\red coding challenge\backend\presentation\netstandard.library
+i:{96bd05cd-dc87-4198-8d5a-8f5fbdd8b7c3}:c:\users\blitz\desktop\red coding challenge\backend\shared\netstandard.library
+++Entities
+i:{7e5e74d7-8f70-47ca-a88a-7de80d3a2cb3}:c:\users\blitz\desktop\red coding challenge\backend\entities\bin\debug\netstandard2.1\entities.dll
+i:{00000000-0000-0000-0000-000000000000}:Entities
+i:{ded62889-dd6f-461f-b46c-a02567b150e8}:c:\users\blitz\desktop\red coding challenge\backend\entities\entities.csproj
+i:{e714518a-93a6-4e25-a3cf-5140e2fbbd6e}:c:\users\blitz\desktop\red coding challenge\backend\entities\bin\debug\netstandard2.1\entities.dll
+i:{bdaa8d29-043f-4398-a20c-2ac8d863007d}:c:\users\blitz\desktop\red coding challenge\backend\entities\bin\debug\netstandard2.1\entities.dll
+i:{96bd05cd-dc87-4198-8d5a-8f5fbdd8b7c3}:c:\users\blitz\desktop\red coding challenge\backend\entities\bin\debug\netstandard2.1\entities.dll
+++ILoggerManager.cs
+i:{39281eee-5e94-454c-8809-59cbbf51fa7e}:c:\users\blitz\desktop\red coding challenge\backend\loggerservice\iloggermanager.cs
+++LoggerManager.cs
+i:{39281eee-5e94-454c-8809-59cbbf51fa7e}:c:\users\blitz\desktop\red coding challenge\backend\loggerservice\loggermanager.cs
+++NLog.Extensions.Logging (1.7.4)
+i:{39281eee-5e94-454c-8809-59cbbf51fa7e}:>997
+++ErrorModel
+i:{94e49d7c-c2c1-42e2-8d56-af4cc3a505fa}:c:\users\blitz\desktop\red coding challenge\backend\entities\errormodel\
+++Exceptions
+i:{94e49d7c-c2c1-42e2-8d56-af4cc3a505fa}:c:\users\blitz\desktop\red coding challenge\backend\entities\exceptions\
+++BadRequestException.cs
+i:{94e49d7c-c2c1-42e2-8d56-af4cc3a505fa}:c:\users\blitz\desktop\red coding challenge\backend\entities\exceptions\badrequestexception.cs
+++CollectionByIdsBadRequestException.cs
+i:{94e49d7c-c2c1-42e2-8d56-af4cc3a505fa}:c:\users\blitz\desktop\red coding challenge\backend\entities\exceptions\collectionbyidsbadrequestexception.cs
+++IdParametersBadRequestException.cs
+i:{94e49d7c-c2c1-42e2-8d56-af4cc3a505fa}:c:\users\blitz\desktop\red coding challenge\backend\entities\exceptions\idparametersbadrequestexception.cs
+++NotFoundException.cs
+i:{94e49d7c-c2c1-42e2-8d56-af4cc3a505fa}:c:\users\blitz\desktop\red coding challenge\backend\entities\exceptions\notfoundexception.cs
+++OrderCollectionBadRequest.cs
+i:{94e49d7c-c2c1-42e2-8d56-af4cc3a505fa}:c:\users\blitz\desktop\red coding challenge\backend\entities\exceptions\ordercollectionbadrequest.cs
+++OrderNotFoundException.cs
+i:{94e49d7c-c2c1-42e2-8d56-af4cc3a505fa}:c:\users\blitz\desktop\red coding challenge\backend\entities\exceptions\ordernotfoundexception.cs
+++Models
+i:{94e49d7c-c2c1-42e2-8d56-af4cc3a505fa}:c:\users\blitz\desktop\red coding challenge\backend\entities\models\
+++Enums
+i:{94e49d7c-c2c1-42e2-8d56-af4cc3a505fa}:c:\users\blitz\desktop\red coding challenge\backend\entities\models\enums\
+++User.cs
+i:{94e49d7c-c2c1-42e2-8d56-af4cc3a505fa}:c:\users\blitz\desktop\red coding challenge\backend\entities\models\user.cs
+++Order.cs
+i:{94e49d7c-c2c1-42e2-8d56-af4cc3a505fa}:c:\users\blitz\desktop\red coding challenge\backend\entities\order.cs
+++ErrorDetails.cs
+i:{94e49d7c-c2c1-42e2-8d56-af4cc3a505fa}:c:\users\blitz\desktop\red coding challenge\backend\entities\errormodel\errordetails.cs
+++OrderType.cs
+i:{94e49d7c-c2c1-42e2-8d56-af4cc3a505fa}:c:\users\blitz\desktop\red coding challenge\backend\entities\models\enums\ordertype.cs
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (3.1.21)
+i:{94e49d7c-c2c1-42e2-8d56-af4cc3a505fa}:>1489
+++Newtonsoft.Json (13.0.1)
+i:{94e49d7c-c2c1-42e2-8d56-af4cc3a505fa}:>1009
+++Configuration
+i:{ded62889-dd6f-461f-b46c-a02567b150e8}:c:\users\blitz\desktop\red coding challenge\backend\repository\configuration\
+++OrderConfiguration.cs
+i:{ded62889-dd6f-461f-b46c-a02567b150e8}:c:\users\blitz\desktop\red coding challenge\backend\repository\configuration\orderconfiguration.cs
+++RoleConfiguration.cs
+i:{ded62889-dd6f-461f-b46c-a02567b150e8}:c:\users\blitz\desktop\red coding challenge\backend\repository\configuration\roleconfiguration.cs
+++OrderRepository.cs
+i:{ded62889-dd6f-461f-b46c-a02567b150e8}:c:\users\blitz\desktop\red coding challenge\backend\repository\orderrepository.cs
+++RepositoryBase.cs
+i:{ded62889-dd6f-461f-b46c-a02567b150e8}:c:\users\blitz\desktop\red coding challenge\backend\repository\repositorybase.cs
+++RepositoryContext.cs
+i:{ded62889-dd6f-461f-b46c-a02567b150e8}:c:\users\blitz\desktop\red coding challenge\backend\repository\repositorycontext.cs
+++RepositoryManager.cs
+i:{ded62889-dd6f-461f-b46c-a02567b150e8}:c:\users\blitz\desktop\red coding challenge\backend\repository\repositorymanager.cs
+++Microsoft.EntityFrameworkCore (3.1.21)
+i:{ded62889-dd6f-461f-b46c-a02567b150e8}:>992
+++Shared
+i:{ded62889-dd6f-461f-b46c-a02567b150e8}:c:\users\blitz\desktop\red coding challenge\backend\shared\shared.csproj
+i:{e714518a-93a6-4e25-a3cf-5140e2fbbd6e}:c:\users\blitz\desktop\red coding challenge\backend\shared\bin\debug\netstandard2.1\shared.dll
+i:{00000000-0000-0000-0000-000000000000}:Shared
+++AuthenticationService.cs
+i:{d5e1b350-649f-427e-a08f-d6c69576ed1b}:c:\users\blitz\desktop\red coding challenge\backend\services\authenticationservice.cs
+++OrderService.cs
+i:{d5e1b350-649f-427e-a08f-d6c69576ed1b}:c:\users\blitz\desktop\red coding challenge\backend\services\orderservice.cs
+++ServiceManager.cs
+i:{d5e1b350-649f-427e-a08f-d6c69576ed1b}:c:\users\blitz\desktop\red coding challenge\backend\services\servicemanager.cs
+++AutoMapper (10.1.1)
+++Services.Contracts
+i:{d5e1b350-649f-427e-a08f-d6c69576ed1b}:c:\users\blitz\desktop\red coding challenge\backend\services.contracts\bin\debug\netstandard2.1\services.contracts.dll
+i:{00000000-0000-0000-0000-000000000000}:Services.Contracts
+i:{bdaa8d29-043f-4398-a20c-2ac8d863007d}:c:\users\blitz\desktop\red coding challenge\backend\services.contracts\bin\debug\netstandard2.1\services.contracts.dll
+++IAuthenticationService.cs
+i:{e714518a-93a6-4e25-a3cf-5140e2fbbd6e}:c:\users\blitz\desktop\red coding challenge\backend\services.contracts\iauthenticationservice.cs
+++IOrderService.cs
+i:{e714518a-93a6-4e25-a3cf-5140e2fbbd6e}:c:\users\blitz\desktop\red coding challenge\backend\services.contracts\iorderservice.cs
+++IServiceManager.cs
+i:{e714518a-93a6-4e25-a3cf-5140e2fbbd6e}:c:\users\blitz\desktop\red coding challenge\backend\services.contracts\iservicemanager.cs
+++Controllers
+i:{bdaa8d29-043f-4398-a20c-2ac8d863007d}:c:\users\blitz\desktop\red coding challenge\backend\presentation\controllers\
+++AuthenticationController.cs
+i:{bdaa8d29-043f-4398-a20c-2ac8d863007d}:c:\users\blitz\desktop\red coding challenge\backend\presentation\controllers\authenticationcontroller.cs
+++OrderController.cs
+i:{bdaa8d29-043f-4398-a20c-2ac8d863007d}:c:\users\blitz\desktop\red coding challenge\backend\presentation\controllers\ordercontroller.cs
+++AssemblyReference.cs
+i:{bdaa8d29-043f-4398-a20c-2ac8d863007d}:c:\users\blitz\desktop\red coding challenge\backend\presentation\assemblyreference.cs
+++Microsoft.AspNetCore.Mvc.Core (2.2.5)
+i:{bdaa8d29-043f-4398-a20c-2ac8d863007d}:>1008
+++DataTransferObjects
+i:{96bd05cd-dc87-4198-8d5a-8f5fbdd8b7c3}:c:\users\blitz\desktop\red coding challenge\backend\shared\datatransferobjects\
+++OrderDto.cs
+i:{96bd05cd-dc87-4198-8d5a-8f5fbdd8b7c3}:c:\users\blitz\desktop\red coding challenge\backend\shared\datatransferobjects\orderdto.cs
+++OrderForCreationDto.cs
+i:{96bd05cd-dc87-4198-8d5a-8f5fbdd8b7c3}:c:\users\blitz\desktop\red coding challenge\backend\shared\datatransferobjects\orderforcreationdto.cs
+++OrderForUpdateDto.cs
+i:{96bd05cd-dc87-4198-8d5a-8f5fbdd8b7c3}:c:\users\blitz\desktop\red coding challenge\backend\shared\datatransferobjects\orderforupdatedto.cs
+++UserForRegistrationDto.cs
+i:{96bd05cd-dc87-4198-8d5a-8f5fbdd8b7c3}:c:\users\blitz\desktop\red coding challenge\backend\shared\datatransferobjects\userforregistrationdto.cs
+++AutoMapper (8.0.0)
+++AutoMapper.Extensions.Microsoft.DependencyInjection (7.0.0)
+i:{d5e1b350-649f-427e-a08f-d6c69576ed1b}:>1543
+++Microsoft.AspNetCore.Authentication.JwtBearer (3.1.21)
+++Microsoft.AspNetCore.Authentication.JwtBearer (3.1.0)
+i:{791c8dcd-9854-4919-afb5-ea9762d374e8}:>2443

@@ -36,6 +36,9 @@ namespace API
             services.ConfigureSqlContext(Configuration);
             services.AddAutoMapper(typeof(Startup));
 
+            services.AddAuthentication();
+            services.ConfigureIdentity();
+            services.ConfigureJWT(Configuration);
             // Enable custom responses from actions
 
             services.Configure<ApiBehaviorOptions>(options =>
@@ -43,8 +46,6 @@ namespace API
                 options.SuppressModelStateInvalidFilter = true;
             });
 
-            services.AddAuthentication();
-            services.ConfigureIdentity();
             // Configure the API assembly to route incoming requests to the Presentation assembly
             services.AddControllers(config =>
             {
