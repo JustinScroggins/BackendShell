@@ -8,9 +8,12 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
 using NLog;
+using Presentation.ActionFilters;
 using Service;
 using Services.Contracts;
+using System.Collections.Generic;
 using System.IO;
 
 namespace API
@@ -45,7 +48,7 @@ namespace API
             {
                 options.SuppressModelStateInvalidFilter = true;
             });
-
+            services.AddScoped<ValidationFilterAttribute>();
             // Configure the API assembly to route incoming requests to the Presentation assembly
             services.AddControllers(config =>
             {
@@ -54,6 +57,7 @@ namespace API
                 config.ReturnHttpNotAcceptable = true;
             }).AddXmlDataContractSerializerFormatters()
                 .AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly);
+            services.ConfigureSwagger();
 
         }
 
@@ -84,6 +88,9 @@ namespace API
             {
                 endpoints.MapControllers();
             });
+
+            app.UseSwagger();
+            app.UseSwaggerUI();
         }
     }
 }

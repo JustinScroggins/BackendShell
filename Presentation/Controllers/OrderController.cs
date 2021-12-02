@@ -19,7 +19,7 @@ namespace Presentation
 
         public OrderController(IServiceManager service) => _service = service;
 
-        [HttpGet, Authorize]
+        [HttpGet, Authorize(Roles = "User,Administrator")]
         public async Task<IActionResult> GetOrdersAsync()
         {
             var orders = await _service.OrderService.GetAllOrdersAsync(trackChanges: false);
@@ -28,7 +28,7 @@ namespace Presentation
         }
 
         // Add a Search endpoint
-        [HttpGet("{id}", Name = "OrderById"), Authorize]
+        [HttpGet("{id}", Name = "OrderById"), Authorize(Roles = "User,Administrator")]
         public async Task<IActionResult> GetOrderAsync(int id)
         {
             var order = await _service.OrderService.GetOrderAsync(id, trackChanges: false);
@@ -36,7 +36,7 @@ namespace Presentation
         }
 
         // Search for Collection by multiple ID's
-        [HttpGet("collection", Name = "OrderCollection"), Authorize]
+        [HttpGet("collection", Name = "OrderCollection"), Authorize(Roles = "User,Administrator")]
         public async Task<IActionResult>GetOrderCollectionAsync(List<int> ids)
         {
             var orders = await _service.OrderService.GetByIdsAsync(ids, trackChanges: false);
@@ -44,7 +44,7 @@ namespace Presentation
         }
 
         // Add a Create endpoint
-        [HttpPost, Authorize]
+        [HttpPost, Authorize(Roles = "User,Administrator")]
         public async Task<IActionResult> CreateOrderAsync([FromBody] OrderForCreationDto order)
         {
             if (order is null)
@@ -55,7 +55,7 @@ namespace Presentation
             return CreatedAtRoute("OrderById", new { id = createdOrder.OrderId }, createdOrder);
         }
 
-        [HttpPost("collection"), Authorize]
+        [HttpPost("collection"), Authorize(Roles = "User,Administrator")]
         public async Task<IActionResult> CreateOrderCollection([FromBody] IEnumerable<OrderForCreationDto> orderCollection)
         {
             var result = await _service.OrderService.CreateOrderCollectionAsync(orderCollection);
@@ -63,7 +63,7 @@ namespace Presentation
         }
 
         // Add a Delete endpoint
-        [HttpDelete("{orderId}"), Authorize]
+        [HttpDelete("{orderId}"), Authorize(Roles = "Administrator")]
         public async Task<IActionResult> DeleteOrderAsync(int orderId)
         {
             await _service.OrderService.DeleteOrderAsync(orderId, trackChanges: false);
@@ -71,7 +71,7 @@ namespace Presentation
         }
 
         //Edit an order
-        [HttpPut("{orderId}"), Authorize]
+        [HttpPut("{orderId}"), Authorize(Roles = "Administrator")]
         public async Task<IActionResult> UpdateOrderAsync(int orderId, [FromBody] OrderForUpdateDto order)
         {
             if (order is null)
