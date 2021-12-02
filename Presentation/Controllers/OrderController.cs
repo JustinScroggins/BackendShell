@@ -55,12 +55,12 @@ namespace Presentation
             return CreatedAtRoute("OrderById", new { id = createdOrder.OrderId }, createdOrder);
         }
 
-        [HttpPost("collection"), Authorize(Roles = "User,Administrator")]
-        public async Task<IActionResult> CreateOrderCollection([FromBody] IEnumerable<OrderForCreationDto> orderCollection)
-        {
-            var result = await _service.OrderService.CreateOrderCollectionAsync(orderCollection);
-            return CreatedAtRoute("OrderCollection", new { result.ids }, result.orders);
-        }
+        //[HttpPost("collection"), Authorize(Roles = "User,Administrator")]
+        //public async Task<IActionResult> CreateOrderCollection([FromBody] IEnumerable<OrderForCreationDto> orderCollection)
+        //{
+        //    var result = await _service.OrderService.CreateOrderCollectionAsync(orderCollection);
+        //    return CreatedAtRoute("OrderCollection", new { result.ids }, result.orders);
+        //}
 
         // Add a Delete endpoint
         [HttpDelete("{orderId}"), Authorize(Roles = "Administrator")]

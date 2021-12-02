@@ -71,25 +71,25 @@ namespace Service
 
         }
 
-        public async Task<(IEnumerable<OrderDto> orders, string ids)> CreateOrderCollectionAsync
-            (IEnumerable<OrderForCreationDto> ordersCollection)
-        {
-            if (ordersCollection is null)
-                throw new OrderCollectionBadRequest();
+        //public async Task<(IEnumerable<OrderDto> orders, string ids)> CreateOrderCollectionAsync
+        //    (IEnumerable<OrderForCreationDto> ordersCollection)
+        //{
+        //    if (ordersCollection is null)
+        //        throw new OrderCollectionBadRequest();
 
-            var orderEntities = _mapper.Map<IEnumerable<Order>>(ordersCollection);
-            foreach (var order in orderEntities)
-            {
-                _repository.Order.CreateOrder(order);
-            }
+        //    var orderEntities = _mapper.Map<IEnumerable<Order>>(ordersCollection);
+        //    foreach (var order in orderEntities)
+        //    {
+        //        _repository.Order.CreateOrder(order);
+        //    }
 
-            await _repository.SaveAsync();
+        //    await _repository.SaveAsync();
 
-            var orderCollectionToReturn = _mapper.Map<IEnumerable<OrderDto>>(orderEntities);
-            var ids = string.Join(",", orderCollectionToReturn.Select(c => c.OrderId));
+        //    var orderCollectionToReturn = _mapper.Map<IEnumerable<OrderDto>>(orderEntities);
+        //    var ids = string.Join(",", orderCollectionToReturn.Select(c => c.OrderId));
 
-            return (orders: orderCollectionToReturn, ids: ids);
-        }
+        //    return (orders: orderCollectionToReturn, ids: ids);
+        //}
 
         public async Task DeleteOrderAsync(int orderId, bool trackChanges)
         {
