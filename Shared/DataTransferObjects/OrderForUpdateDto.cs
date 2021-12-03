@@ -10,5 +10,7 @@ namespace Shared.DataTransferObjects
         public string CustomerName { get; set; }
         public string CreatedByUserName { get; set; }
         public OrderType OrderType { get; set; }
+        public DateTime CreatedDate { get; set; }
+
     }
 }

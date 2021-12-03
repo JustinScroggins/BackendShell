@@ -4,6 +4,7 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup>
-    <ActiveDebugProfile>API</ActiveDebugProfile>
+    <ActiveDebugProfile>Docker</ActiveDebugProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\blitz\Desktop\RED Coding Challenge\Backend\BackendShell\Properties\PublishProfiles\registry.hub.docker.com_itz4blitz.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

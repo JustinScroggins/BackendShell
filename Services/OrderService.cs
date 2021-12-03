@@ -56,19 +56,27 @@ namespace Service
             return orderToReturn;
         }
 
-        public async Task<IEnumerable<OrderDto>> GetByIdsAsync(IEnumerable<int> ids, bool trackChanges)
+        public async Task DeleteOrderCollectionAsync(IEnumerable<int> ids, bool trackChanges)
         {
-            if (ids is null)
-                throw new IdParametersBadRequestException();
+            foreach (var item in ids)
+            {
+                var order = await _repository.Order.GetOrderAsync(item, trackChanges);
+                if (order is null)
+                    throw new OrderNotFoundException(item);
 
-            var orderEntities = await _repository.Order.GetByIdsAsync(ids, trackChanges);
-            if (ids.Count() != orderEntities.Count())
-                throw new CollectionByIdsBadRequestException();
+                _repository.Order.DeleteOrder(order);
+            }
+            await _repository.SaveAsync();
+        }
 
-            var ordersToReturn = _mapper.Map<IEnumerable<OrderDto>>(orderEntities);
+        public async Task DeleteOrderAsync(int orderId, bool trackChanges)
+        {
+            var order = await _repository.Order.GetOrderAsync(orderId, trackChanges);
+            if (order is null)
+                throw new OrderNotFoundException(orderId);
 
-            return ordersToReturn;
-
+            _repository.Order.DeleteOrder(order);
+            await _repository.SaveAsync();
         }
 
         //public async Task<(IEnumerable<OrderDto> orders, string ids)> CreateOrderCollectionAsync
@@ -91,16 +99,6 @@ namespace Service
         //    return (orders: orderCollectionToReturn, ids: ids);
         //}
 
-        public async Task DeleteOrderAsync(int orderId, bool trackChanges)
-        {
-            var order = await _repository.Order.GetOrderAsync(orderId, trackChanges);
-            if (order is null)
-                throw new OrderNotFoundException(orderId);
-
-            _repository.Order.DeleteOrder(order);
-            await _repository.SaveAsync();
-        }
-
         public async Task UpdateOrderAsync(int orderId, OrderForUpdateDto orderForUpdate, bool trackChanges)
         {
             var order = await _repository.Order.GetOrderAsync(orderId, trackChanges);
@@ -108,6 +106,7 @@ namespace Service
                 throw new OrderNotFoundException(orderId);
 
             _mapper.Map(orderForUpdate, order);
+            order.CreatedDate = DateTime.Now;
             await _repository.SaveAsync();
         }
     }

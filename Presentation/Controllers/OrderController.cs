@@ -35,14 +35,6 @@ namespace Presentation
             return Ok(order);
         }
 
-        // Search for Collection by multiple ID's
-        [HttpGet("collection", Name = "OrderCollection"), Authorize(Roles = "User,Administrator")]
-        public async Task<IActionResult>GetOrderCollectionAsync(List<int> ids)
-        {
-            var orders = await _service.OrderService.GetByIdsAsync(ids, trackChanges: false);
-            return Ok(orders);
-        }
-
         // Add a Create endpoint
         [HttpPost, Authorize(Roles = "User,Administrator")]
         public async Task<IActionResult> CreateOrderAsync([FromBody] OrderForCreationDto order)
@@ -55,18 +47,19 @@ namespace Presentation
             return CreatedAtRoute("OrderById", new { id = createdOrder.OrderId }, createdOrder);
         }
 
-        //[HttpPost("collection"), Authorize(Roles = "User,Administrator")]
-        //public async Task<IActionResult> CreateOrderCollection([FromBody] IEnumerable<OrderForCreationDto> orderCollection)
-        //{
-        //    var result = await _service.OrderService.CreateOrderCollectionAsync(orderCollection);
-        //    return CreatedAtRoute("OrderCollection", new { result.ids }, result.orders);
-        //}
-
         // Add a Delete endpoint
         [HttpDelete("{orderId}"), Authorize(Roles = "Administrator")]
         public async Task<IActionResult> DeleteOrderAsync(int orderId)
         {
             await _service.OrderService.DeleteOrderAsync(orderId, trackChanges: false);
+            return NoContent();
+        }
+
+        // Delete a collection of orders
+        [HttpDelete("collection/({ids})", Name = "OrderCollection"), Authorize(Roles = "Administrator")]
+        public async Task<IActionResult> DeleteOrderCollectionAsync(IEnumerable<int> ids)
+        {
+            await _service.OrderService.DeleteOrderCollectionAsync(ids, trackChanges: false);
             return NoContent();
         }
 

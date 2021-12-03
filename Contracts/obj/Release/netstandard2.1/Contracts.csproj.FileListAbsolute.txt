@@ -1,0 +1,13 @@
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Contracts\bin\Release\netstandard2.1\Contracts.deps.json
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Contracts\bin\Release\netstandard2.1\Contracts.dll
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Contracts\bin\Release\netstandard2.1\Contracts.pdb
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Contracts\bin\Release\netstandard2.1\Entities.dll
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Contracts\bin\Release\netstandard2.1\Entities.pdb
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Contracts\obj\Release\netstandard2.1\Contracts.csproj.AssemblyReference.cache
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Contracts\obj\Release\netstandard2.1\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Contracts\obj\Release\netstandard2.1\Contracts.AssemblyInfoInputs.cache
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Contracts\obj\Release\netstandard2.1\Contracts.AssemblyInfo.cs
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Contracts\obj\Release\netstandard2.1\Contracts.csproj.CoreCompileInputs.cache
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Contracts\obj\Release\netstandard2.1\Contracts.csproj.CopyComplete
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Contracts\obj\Release\netstandard2.1\Contracts.dll
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\Contracts\obj\Release\netstandard2.1\Contracts.pdb

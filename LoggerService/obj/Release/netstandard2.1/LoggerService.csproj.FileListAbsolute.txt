@@ -1,0 +1,15 @@
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\LoggerService\bin\Release\netstandard2.1\LoggerService.deps.json
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\LoggerService\bin\Release\netstandard2.1\LoggerService.dll
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\LoggerService\bin\Release\netstandard2.1\LoggerService.pdb
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\LoggerService\bin\Release\netstandard2.1\Contracts.dll
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\LoggerService\bin\Release\netstandard2.1\Entities.dll
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\LoggerService\bin\Release\netstandard2.1\Contracts.pdb
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\LoggerService\bin\Release\netstandard2.1\Entities.pdb
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\LoggerService\obj\Release\netstandard2.1\LoggerService.csproj.AssemblyReference.cache
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\LoggerService\obj\Release\netstandard2.1\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\LoggerService\obj\Release\netstandard2.1\LoggerService.AssemblyInfoInputs.cache
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\LoggerService\obj\Release\netstandard2.1\LoggerService.AssemblyInfo.cs
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\LoggerService\obj\Release\netstandard2.1\LoggerService.csproj.CoreCompileInputs.cache
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\LoggerService\obj\Release\netstandard2.1\LoggerService.csproj.CopyComplete
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\LoggerService\obj\Release\netstandard2.1\LoggerService.dll
+C:\Users\blitz\Desktop\RED Coding Challenge\Backend\LoggerService\obj\Release\netstandard2.1\LoggerService.pdb

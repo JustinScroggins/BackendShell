@@ -30,10 +30,8 @@ namespace Repository
             Create(order);
         }
 
-        public async Task<IEnumerable<Order>> GetByIdsAsync(IEnumerable<int> ids, bool trackChanges) =>
-            await FindByCondition(x => ids.Contains(x.OrderId), trackChanges)
-            .ToListAsync();
-
         public void DeleteOrder(Order order) => Delete(order);
+
+        public void DeleteOrderCollectionAsync(IEnumerable<int> ids) => DeleteOrderCollectionAsync(ids);
     }
 }
