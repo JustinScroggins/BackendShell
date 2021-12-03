@@ -28,6 +28,35 @@ public class OrderControllerTests
         Assert.Single(result);
     }
 
+    [Fact]
+    public async void DeleteOrder_ShouldRemoveOrderFromRepository()
+    {
+        // Arrange
+        var mockRepo = new Mock<IOrderRepository>();
+        mockRepo.Setup(repo => (repo.GetAllOrdersAsync(false)))
+            .Returns(Task.FromResult(GetOrders()));
+        var order = GetOrders().FirstOrDefault();
+        
+
+        // Act
+        mockRepo.Object.DeleteOrder(order);
+
+        // Assert
+        Assert.NotSame(mockRepo, order);
+        
+    }
+
+    [Fact]
+    public async void GetSingleOrder_ShouldReturnCorrectOrder() 
+    {
+        // Arrange
+        var mockRepo = new Mock<IOrderRepository>();
+        mockRepo.Setup(repo => (repo.GetAllOrdersAsync(false)))
+            .Returns(Task.FromResult(GetOrders()));
+
+        // Act
+    }
+
     public IEnumerable<Order> GetOrders()
     {
         return new List<Order>
